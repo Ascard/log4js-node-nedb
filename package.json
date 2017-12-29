@@ -1,0 +1,66 @@
+{
+  "name": "log4js-node-nedb",
+  "description": "A log4js-node log appender to write logs into nedb.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Ascard/log4js-node-nedb#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ascard/log4js-node-nedb.git"
+  },
+  "_from": "log4js-node-nedb",
+  "_id": "log4js-node-nedb@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-a7ABeRgLs2JOlbm5nuLPf5KEY/IIMzdeMX6c3x9S2n2HJidMuBBMAY2S7I+L6B992/MDxXzvZO87FvrCPu+Q1g==",
+  "_location": "/log4js-node-nedb",
+  "_phantomChildren": {
+    "core-util-is": "1.0.2",
+    "inherits": "2.0.1",
+    "string_decoder": "0.10.31"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "log4js-node-nedb",
+    "name": "log4js-node-nedb",
+    "escapedName": "log4js-node-nedb",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_resolved": "https://registry.npmjs.org/log4js-node-nedb/-/log4js-node-nedb-0.0.1.tgz",
+  "_shasum": "4b568ea3f977a4c10832e8b88e575048ac2a0031",
+  "_spec": "log4js-node-nedb",
+  "bugs": {
+    "url": "https://github.com/Ascard/log4js-node-nedb/issues"
+  },
+  "author": {
+    "name": "Ascard",
+    "email": "lynx-me@yandex.ru"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "keywords": [
+    "log4js",
+    "nedb",
+    "logging",
+    "log"
+  ],
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Ascard/log4js-node-nedb/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "bson": "~1.0.4",
+    "log4js": "^0.6.38",
+    "lx-helpers": "^0.5.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {}
+}
